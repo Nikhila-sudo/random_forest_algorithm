@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-
+#nikhila
 model = joblib.load('medical_rf_model.joblib')
 model_columns = joblib.load('model_columns.joblib')
 
